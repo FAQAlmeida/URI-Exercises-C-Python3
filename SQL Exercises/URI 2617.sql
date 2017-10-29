@@ -1,0 +1,1 @@
+select products1.name, providers.NAME from products1 inner join providers on (providers.id = products1.id_providers) where providers.name = 'Ajax SA' 
